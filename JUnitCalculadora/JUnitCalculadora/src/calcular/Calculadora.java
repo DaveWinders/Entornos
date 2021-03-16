@@ -16,59 +16,7 @@ public class Calculadora {
 		return a+b;
 	}
 	
-	public Integer resta(){
-		
-		if (a<b)
-		return b-a;
-		else
-			return a-b;
-	}
 	
-
-	
-	public Integer multiplica(){
-		
-		return a*b;
-	}
-	public Integer divide(){
-		
-		return a/b;
-	
-	}
-	
-	public boolean mayor(){
-		
-			if (a>b)
-				return true;
-			else
-				return false;
-		} 
-	
-	public Integer resta2(){
-		
-		if (this.mayor())
-			return a-b;
-		else
-			return b-a;
-	}
-	
-	
-	public Integer divide2(){
-		
-		if (b!=0)
-			return a/b;
-		else
-			return null;
-	}
-	
-	
-	public Integer dividir(){
-		
-		if (b==0)
-			throw new ArithmeticException("Division por 0");
-		
-		return a/b;
-	}
 	
 	
 	public static void main(String args[])
@@ -80,10 +28,9 @@ public class Calculadora {
 		Integer resultados= oper.suma();
 		Integer resultador= oper.resta();
 		Integer resultadom= oper.multiplica();
-		Integer resultadod= oper.divide();
+		
 		System.out.println(resultados);
 		System.out.println(resultadom);
-		System.out.println(resultadod);
 		System.out.println(resultador);
 		
 		
