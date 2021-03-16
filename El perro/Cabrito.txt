@@ -1,12 +1,1 @@
-IF X
-
-<<<<<<< HEAD
-
-Corchopan
-
-
-
-Hola que tal
-=======
-then %5
->>>>>>> 37c77f6eed0b5928fdca4369751370d49a388315
+chocopan
